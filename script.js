@@ -59,7 +59,6 @@ message.style.backgroundColor = '#37383c';
 message.style.height =
   Number.parseInt(getComputedStyle(message).height) + 30 + 'px';
 
-console.log(document.querySelector('.nav__logo').dataset.versionNumber);
 
 btnScrollTo.addEventListener('click', function (e) {
   section1.scrollIntoView({ behavior: 'smooth' });
